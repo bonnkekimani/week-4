@@ -1,19 +1,68 @@
 {
-  "posts": [
+  "Projects": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Project A",
+      "description": "Commercial Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/8dc976161695473.Y3JvcCwyMTAzLDE2NDUsMzQ4LDA.jpg",
+      "budget": "KSH:200,000",
+      "location": "Nairobi"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Project B",
+      "description": "Office Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/678a11166144153.64143a3c91581.png",
+      "budget": "KSH:150,000",
+      "location": "Nakuru"
+    },
+    {
+      "id": 3,
+      "name": "Project C",
+      "description": "Residential Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/c719e5166901001.Y3JvcCwzODM1LDMwMDAsODUsMA.jpg",
+      "budget": "KSH:100,000",
+      "location": "Malindi"
+    },
+    {
+      "id": 4,
+      "name": "Project D",
+      "description": "Hospital Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/56000e164064491.Y3JvcCwyNTAwLDE5NTUsMCwzNTg.jpg",
+      "budget": "KSH:140,000",
+      "location": "Mombasa"
+    },
+    {
+      "id": 5,
+      "name": "Project E",
+      "description": "Institutional Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/66227b136277635.Y3JvcCw2NzY0LDUyOTEsNjUzLDA.jpg",
+      "budget": "KSH:135,000",
+      "location": "Eldoret"
+    },
+    {
+      "id": 6,
+      "name": "Project F",
+      "description": "Gypsum Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/cfa623103912463.Y3JvcCw0NDE4LDM0NTYsOTgsMA.jpg",
+      "budget": "KSH:65,000",
+      "location": "Kitale"
+    },
+    {
+      "id": 7,
+      "name": "Project G",
+      "description": "Wallpaper Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/9bc71b167165641.Y3JvcCw4NTAsNjY0LDAsMA.jpg",
+      "budget": "KSH:50,000",
+      "location": "Kisumu"
+    },
+    {
+      "id": 8,
+      "name": "Project H",
+      "description": "Exterior Design",
+      "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/851ac995791401.Y3JvcCwxMTk3LDkzNyw4Myww.jpg",
+      "budget": "KSH:200,000",
+      "location": "Machakos"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
