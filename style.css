@@ -59,6 +59,7 @@
     padding-left: 35%; 
     width: 63.9%;
     color: #333;
+    
 
   }
   .work a {
@@ -163,11 +164,13 @@
   .footer-menu a:hover{
     color: #27bcda;
   }
+  /* endfooter */
   .txtflip{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
     padding-top: 1%;
+    align-content: centedd;
   }
 
 /* flipcards start */
@@ -222,4 +225,27 @@
   /* flipcards end */
   
   /* js cards */
+  .jstyles{
+    background-color:gray;
+    /* text-align: center; */
+  }
+  .card{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 3rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(212, 214, 222, 0.3);
+    width: 150px;
+    height: 150px;
+    background-color: rgb(198, 196, 200);
+    display: inline-table;
+  }
+
+  .projectstitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1%;
+  }
+
   

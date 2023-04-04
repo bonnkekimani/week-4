@@ -4,7 +4,7 @@ fetch("http://localhost:3000/Projects",)
         const  character = document.querySelector(".jstyles")
         for(let i = 0; i < data.length; i++) {
             console.log(data[i]);
-            let pic = data[i].image_url;
+            let pic = data[i].image;
             let ref = data[i].name;
             let more = data[i].description;
             let price = data[i].budget;
