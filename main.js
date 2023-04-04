@@ -19,8 +19,10 @@ fetch("http://localhost:3000/Projects",)
             <h5>Description: ${more}</h5>
             <h5>Budget: ${price}</h5>
             <h5>Location: ${area}</h5>
+
             `
             character.appendChild(card)
+
             }
     })
 
