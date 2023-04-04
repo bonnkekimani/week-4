@@ -54,21 +54,26 @@
     display: inline-block;
     font-size: 30px;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     overflow: hidden;
     padding-left: 35%; 
     width: 63.9%;
-    color: #333;
+    color: whitesmoke;
+    height: 2%;
+    
     
 
   }
   .work a {
     float: left;
-    color: #333;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
+    padding-right: 35%;
+    height: 2%;
+    
   }
 
  /* footer */
