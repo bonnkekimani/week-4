@@ -54,19 +54,18 @@
     display: inline-block;
     font-size: 30px;
     padding: 20px;
-    background-color: #333;
+    background-color: whitesmoke;
     overflow: hidden;
     padding-left: 35%; 
     width: 63.9%;
-    color: whitesmoke;
+    color: #333;
 
   }
   .work a {
     float: left;
-    color: #f2f2f2;
+    color: #333;
     text-align: center;
     padding: 14px 16px;
-    
     text-decoration: none;
     font-size: 25px;
   }
@@ -164,3 +163,6 @@
   .footer-menu a:hover{
     color: #27bcda;
   }
+
+
+  

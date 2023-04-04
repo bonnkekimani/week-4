@@ -20,3 +20,6 @@ fetch("http://localhost:3000/Projects",)
             character.appendChild(card)
             }
     })
+
+
+ 
