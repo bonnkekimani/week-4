@@ -135,13 +135,51 @@
         <div class="jstyles">
             <p class="projectstitle">PROJECTS</p>
 
-
-
         </div>
-
+        <!-- //REGISTRATION -->
+       
         <div class="major">
-            <p>WE MAJOR IN:</p>
+          <h1 style="text-align: center;">REGISTRATION FORM</h1>
+          <form name="RegForm" onsubmit="alertFunction()" >
+              <label> Name: <input type="text" size="65" name="Name" required placeholder="john Kimani"/></label>
+              <br />
+              <label></label>Address: <input type="address" size="65" name="Address" required placeholder="Nairbi-Kenya"/></label>
+              <br />
+              <label></label>E-mail Address: <input type="email" size="65" name="EMail" required placeholder="joe@gmail.com"/></label>
+              <br />
+              <label></label>Password: <input type="password" size="65" name="Password" required /></label>
+              <br />
+              <label>Comments: <br><textarea  cols="77" name="Comment"> </textarea></label><br>
+              <label></label>Telephone: <input type="number" size="65" name="Telephone" required placeholder="0871234567"/></label>
+              <br />
+              <label>
+                  SELECT YOUR CITY
+                  <select type="text" value="" name="Subject" >
+                    <option>Nairobi</option>
+                    <option>Nakuru</option>
+                    <option>Malindi</option>
+                    <option>Mombasa</option>
+                    <option>Eldoret</option>
+                    <option>Kitale</option>
+                    <option>Kisumu</option>
+                    <option>Machakos</option>
+                  </select>
+              </label>
+              <br />
+              <br />
+              
+                <label>
+                  <input type="submit" value="Send" name="Submit" />
+                  <input type="reset" value="Reset" name="Reset" />
+              </label>
+          </form>
+
         </div>
+        <h2 onclick="changeText(this)">Click on this text</h2>
+      
+        
+
+
 
         <footer>
             <div class="row primary">

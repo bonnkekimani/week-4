@@ -1,12 +1,25 @@
+//Goodbye Message
+function changeText(id) {
+    id.innerHTML = "Ooops!";
+}
+
+
+document.addEventListener('DOMContentLoaded', function(){
+
+//pop up
 function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
+}
+//form alert
+function alertFunction(){
+    alert("The form was submitted")
 }
 
 
 
 
-fetch("http://localhost:3000/Projects",)
+    fetch("http://localhost:3000/Projects",)
     .then(res => res.json())
     .then(data => {
         const  character = document.querySelector(".jstyles")
@@ -46,6 +59,9 @@ fetch("http://localhost:3000/Projects",)
 
             }
     })
+
+
+})
 
 
 

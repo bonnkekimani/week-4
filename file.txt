@@ -11,3 +11,12 @@ Exterior Design:"https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/851ac99
 The profession of interior design is just over 100 years old.In these hundred years, what began as the art of decorating,
  embracing form and functions, has evolved by leaps and bounds into today's world of highly specialized areas of 
 interior design that require years of study and experience.
+
+                     <option>Nairobi</option>
+                      <option>Nakuru</option>
+                      <option>Malindi</option>
+                      <option>Mombasa</option>
+                      <option>Eldoret</option>
+                      <option>Kitale</option>
+                      <option>Kisumu</option>
+                      <option>Machakos</option>

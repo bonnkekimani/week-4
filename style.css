@@ -43,13 +43,7 @@
     color: white;
     padding-top: 1%;
   }
-  .major{
-    text-align: center;
-    background-color: #333;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-    color:whitesmoke;
-  }
+
   .work{
     display: inline-block;
     font-size: 30px;
@@ -315,6 +309,33 @@
   font-size: 17px;
   
 }
+
+/* //Start Of Form */
+.major{
+  box-sizing: border-box;
+  width: 100%;
+  /* border: 100px solid black; */
+  /* float: left; */
+  align-content: center;
+  align-items: center;
+  background-color: #252926;; 
+  height: 30%;
+  padding-top: 1%;
+  color: white;
+  padding-bottom: 1%;
+  
+  
+  
+}
+form {
+  margin: 0 auto;
+  width: 600px;
+  
+  
+
+  
+}
+
 
 
   
