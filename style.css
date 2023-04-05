@@ -180,6 +180,9 @@
 
 /* flipcards start */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.ourclients{
+    height: 510px;
+}
 .flip-card {
     background-color: gray;
     width: 300px;
@@ -252,5 +255,33 @@
     font-weight: bold;
     padding-top: 1%;
   }
+  /* ADD DESIGN */
+  .addDesign{
+    background-color: #27bcda;
+    position: absolute;
+    top: 142%;
+    left: 45%;
+    transform: translate(-141%,);
+    text-align: center;
+    width:150px;
+    height: 100px;
+  }
+  .addDesign h4{
+    color: brown;
+    font-size: large;
+  }
+  .button{
+    background-color: white;
+    padding: 7px 3px;
+    color: #000;
+    font-weight: bolder;
+    border-radius: 10px;
+    box-shadow: 6px 6px 29px -4px ;
+
+  }
+  .button:hover{
+    background: yellow;
+  }
+
 
   
