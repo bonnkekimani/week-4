@@ -1,3 +1,12 @@
+function myFunction() {
+    var popup = document.getElementById(".myPopup");
+    popup.classList.toggle("show");
+}
+
+
+
+
+
 fetch("http://localhost:3000/Projects",)
     .then(res => res.json())
     .then(data => {
@@ -38,6 +47,9 @@ fetch("http://localhost:3000/Projects",)
 
             }
     })
+
+
+
 
 
  

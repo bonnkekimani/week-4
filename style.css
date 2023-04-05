@@ -255,32 +255,12 @@
     font-weight: bold;
     padding-top: 1%;
   }
-  /* ADD DESIGN */
-  .addDesign{
-    background-color: #27bcda;
-    position: absolute;
-    top: 142%;
-    left: 45%;
-    transform: translate(-141%,);
-    text-align: center;
-    width:150px;
-    height: 100px;
-  }
-  .addDesign h4{
-    color: brown;
-    font-size: large;
-  }
-  .button{
-    background-color: white;
-    padding: 7px 3px;
-    color: #000;
-    font-weight: bolder;
-    border-radius: 10px;
-    box-shadow: 6px 6px 29px -4px ;
-
-  }
-  .button:hover{
-    background: yellow;
+  /* //popup */
+  .readmore{
+    background-color: brown;
+    height: 20px;
+    display: inline-table;
+    width: 100%;
   }
 
 
