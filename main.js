@@ -17,7 +17,7 @@ function alertFunction(){
 //DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function(){
 
-    
+
 //Form submit & display
 let form = document.getElementById("regForm1")
 form.addEventListener('submit',function(event){
@@ -39,7 +39,7 @@ form.addEventListener('submit',function(event){
 
 
 
-    fetch("http://localhost:3000/Projects",)
+    fetch("http://localhost:3001/Projects")
     .then(res => res.json())
     .then(data => {
         const  character = document.querySelector(".jstyles")
