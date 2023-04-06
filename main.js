@@ -1,11 +1,7 @@
 //Goodbye Message
 function changeText(id) {
-    id.innerHTML = "Ooops!";
+    id.innerHTML = "Thank you for chosing Us!";
 }
-
-
-document.addEventListener('DOMContentLoaded', function(){
-
 //pop up
 function myFunction() {
     var popup = document.getElementById("myPopup");
@@ -15,6 +11,30 @@ function myFunction() {
 function alertFunction(){
     alert("The form was submitted")
 }
+
+
+
+//DOMContentLoaded
+document.addEventListener('DOMContentLoaded', function(){
+
+    
+//Form submit & display
+let form = document.getElementById("regForm1")
+form.addEventListener('submit',function(event){
+     event.preventDefault()// prevents the form from auto submitting.
+    let title = document.getElementById("name").value
+    console.log(title);
+    let po = document.getElementById("box").value
+    console.log(po);
+    let yahoo = document.getElementById("gmail").value
+    console.log(yahoo);
+    let auth = document.getElementById("pass").value
+    console.log(auth);
+    let tel = document.getElementById("phone").value
+    console.log(tel);
+    let town = document.getElementById("city").value
+    console.log(town);
+})
 
 
 

@@ -16,9 +16,10 @@
     <nav>
         <div class="topnav" >
             <a href="#"><i class="fa fa-home" ></i>Aquos</a>
-            <a href=""><i class="fa fa-info"></i>Info</a>
-            <a href=""><i class="fa fa-server"></i>Portfolio</a>
+            <a href=""><i class="fa fa-info"></i>About Us</a>
             <a href=""><i class="fa fa-user"></i>Services</a>
+            <a href=""><i class="fa fa- unlock"></i>Projects</a>
+            <a href=""><i class="fa fa- sign-in"></i>Join Us</a>
             <a href=""><i class="fa fa-phone-square"></i>Contact</a>
           </div>
         </nav>
@@ -140,21 +141,21 @@
        
         <div class="major">
           <h1 style="text-align: center;">REGISTRATION FORM</h1>
-          <form name="RegForm" onsubmit="alertFunction()" >
-              <label> Name: <input type="text" size="65" name="Name" required placeholder="john Kimani"/></label>
+          <form name="RegForm" id="regForm1" onsubmit="alertFunction()" >
+              <label> Name: <input type="text" size="65" id="name" name="Name" required placeholder="john Kimani"/></label>
               <br />
-              <label></label>Address: <input type="address" size="65" name="Address" required placeholder="Nairbi-Kenya"/></label>
+              <label></label>Address: <input type="address" id="box" size="65" name="Address" required placeholder="Nairbi-Kenya"/></label>
               <br />
-              <label></label>E-mail Address: <input type="email" size="65" name="EMail" required placeholder="joe@gmail.com"/></label>
+              <label></label>E-mail Address: <input type="email" id="gmail" size="65" name="EMail" required placeholder="joe@gmail.com"/></label>
               <br />
-              <label></label>Password: <input type="password" size="65" name="Password" required /></label>
+              <label></label>Password: <input type="password" size="65" id="pass" name="Password" required /></label>
               <br />
               <label>Comments: <br><textarea  cols="77" name="Comment"> </textarea></label><br>
-              <label></label>Telephone: <input type="number" size="65" name="Telephone" required placeholder="0871234567"/></label>
+              <label></label>Telephone: <input type="number" size="65" id="phone" name="Telephone" required placeholder="0871234567"/></label>
               <br />
               <label>
                   SELECT YOUR CITY
-                  <select type="text" value="" name="Subject" >
+                  <select type="text" value="" name="Subject" id="city" >
                     <option>Nairobi</option>
                     <option>Nakuru</option>
                     <option>Malindi</option>
@@ -175,7 +176,7 @@
           </form>
 
         </div>
-        <h2 onclick="changeText(this)">Click on this text</h2>
+        <h4 onclick="changeText(this)">Click to wave Goodbye</h4>
       
         
 
@@ -185,7 +186,7 @@
             <div class="row primary">
               <div class="column about">
             
-              <h3>We Provide Free No Obligation Quotes</h3>
+              <h3 >We Provide Free No Obligation Quotes</h3>
             
                <p>
                 In our endeavor to provide decor in 
