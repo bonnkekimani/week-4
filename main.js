@@ -39,7 +39,7 @@ form.addEventListener('submit',function(event){
 
 
 
-    fetch("http://localhost:3001/Projects")
+    fetch("https://aquos-dataset.onrender.com/Projects")
     .then(res => res.json())
     .then(data => {
         const  character = document.querySelector(".jstyles")
