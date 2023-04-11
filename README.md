@@ -65,3 +65,6 @@ This web app is open-source and available under the MIT License.
 If you have any questions, comments, or inquiries, please feel free to contact us through the registration form on the web app.
 
 Thank you for using our Interior Design Web App! We hope it helps you find inspiration for your next interior design project.
+
+## Live link
+https://bonnkekimani.github.io/week-4/#projectSenior
